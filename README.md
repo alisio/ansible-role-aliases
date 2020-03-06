@@ -2,9 +2,18 @@ ansible-role-aliases
 ====================
 
 [![Build
-Status](https://travis-ci.org/lesmyrmidons/ansible-role-aliases.svg?branch=master)](https://travis-ci.org/lesmyrmidons/ansible-role-aliases)
+Status](https://travis-ci.org/alisio/ansible-role-aliases.svg?branch=master)](https://travis-ci.org/alisio/ansible-role-aliases)
 
 Ansible Role - Add Aliases on RHEL/CentOS and Debian/Ubuntu.
+
+## Alisio's Fork
+
+I started started to maintain my own fork to integrate changes to the original lesmyrmidons.aliases repository faster.
+
+This fork adds the following features on top of the original functionality:
+
+* fix conditional os family check error
+* Update deprecated privilege escalation method
 
 ## Requirements
 
